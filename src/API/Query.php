@@ -70,11 +70,11 @@ class Query
 
     private function _prepareTagRequest($query)
     {
-        return 'https://query.displaypurposes.com/tag/'.$query;
+        return 'https://apidisplaypurposes.com/tag/'.$query;
     }
 
     private function _prepareMapRequest($query_params)
     {
-        return 'https://query.displaypurposes.com/local?'.http_build_query($query_params);
+        return 'https://apidisplaypurposes.com/local?'.http_build_query($query_params);
     }
 }
