@@ -11,6 +11,8 @@ class Request
     private $basic_headers = [
         'Accept'       => 'application/json',
         'Content-type' => 'application/json',
+        'api-token' => 'bd55c53d58af3dc1de12d37c9c5c6fd2',
+        'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.48 Safari/537.36'
     ];
 
     public function __construct()
